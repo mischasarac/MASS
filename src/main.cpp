@@ -17,7 +17,7 @@
     #define CurrentModel RBFModel
 #elif defined(STOCTREE)
     #include "Models/StochasticQueryModel.hpp"
-    #define CurrentModelStochasticQueryModel
+    #define CurrentModel StochasticQueryModel
 #elif defined(GEK)
     #include "Models/GEKModel.hpp"
     #define CurrentModel GEKModel
